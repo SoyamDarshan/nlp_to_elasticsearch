@@ -1,0 +1,68 @@
+/* KeyValueDisplay table styles */
+.kv-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1em;
+  background: #f8fafd;
+}
+.kv-table th, .kv-table td {
+  border: 1px solid #cfd8dc;
+  padding: 6px 10px;
+  text-align: left;
+  font-size: 0.97em;
+}
+.kv-table th {
+  background: #e3f2fd;
+  font-weight: bold;
+}
+.kv-list {
+  margin: 0.5em 0;
+}
+.kv-item {
+  margin-bottom: 0.3em;
+  padding-left: 0.5em;
+  border-left: 2px solid #90caf9;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  min-width: 320px;
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 24px 20px 16px 20px;
+  position: relative;
+}
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 12px;
+}
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+.modal-header button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #888;
+}
+.modal-body {
+  font-size: 1em;
+}

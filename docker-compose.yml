@@ -1,0 +1,42 @@
+version: '2.4'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    networks:
+      - nlpnet
+  python-service:
+    build: ./python-service
+    ports:
+      - "5000:5000"
+    depends_on:
+      - elasticsearch
+    networks:
+      - nlpnet
+    environment:
+      - FLASK_ENV=development
+    env_file:
+      - ./python-service/.env
+  java-api:
+    build: ./java-api
+    ports:
+      - "8080:8080"
+    depends_on:
+      - python-service
+    networks:
+      - nlpnet
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - java-api
+    networks:
+      - nlpnet
+networks:
+  nlpnet:
+    driver: bridge

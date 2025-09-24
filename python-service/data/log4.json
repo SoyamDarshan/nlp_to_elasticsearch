@@ -1,0 +1,209 @@
+{
+  "status": true,
+  "components": [
+    {
+      "doc_created": "2025-09-10T14:05:16.000Z",
+      "package": {
+        "supplier_info": {
+          "home_page": null,
+          "org": "Pushpender Singh",
+          "name": "Pushpender Singh",
+          "is_verified": true
+        },
+        "file_path": "",
+        "files_analysed": false,
+        "gos": {
+          "gos_type": "gold"
+        },
+        "purl": "pkg:pypi/log4jscanner@1.0.0",
+        "total_fixed_vulnerability_count": 0,
+        "vuln_fixed_info": null,
+        "tamper_info": null,
+        "supplier": "Pushpender Singh",
+        "checksum": {
+          "sha1": "2f938896df35653df4003b885af9eb8d7acfcffb",
+          "sha256": "ca12228ec000fb8d49c3f4696c342a149b07a3fd628be6582195169a7bf573da",
+          "sha512": null,
+          "md5": "000b16a9036dc8c7b2bd17ad3a657e2d"
+        },
+        "total_vulnerability_count": 0,
+        "id": "SPDX-PACKAGE-d4e9886a-f97b-5681-ac07-35a6105dfbcd",
+        "pkg_manager": "python",
+        "last_modified": "2022-01-09T05:01:45.000Z",
+        "src_info": null,
+        "friendly_name": "log4jscanner:1.0.0",
+        "file_name": "pypi:log4jscanner:1.0.0",
+        "download_loc": null,
+        "vulnerability": [],
+        "version": "1.0.0",
+        "license": [
+          {
+            "tenant_id": null,
+            "doc_created": "2025-09-10T14:05:13.000Z",
+            "package": null,
+            "company_id": null,
+            "is_gridfs": false,
+            "doc_type": null,
+            "short_id": null,
+            "version": null,
+            "id_contributing_properties": null,
+            "url": "GNU General Public License v3 (GPLv3)",
+            "full_name": "GNU General Public License v3 (GPLv3)",
+            "component_join_field": null,
+            "sbom": null,
+            "id": null,
+            "sbom_id": null,
+            "is_opensource": true,
+            "category": null,
+            "source_code": null
+          }
+        ],
+        "cpes": null,
+        "name": "pypi:log4jscanner:1.0.0",
+        "desc": "Log4jScanner is a Log4j Related CVEs Scanner, Designed to Help Penetration Testers to Perform Black Box Testing on given subdomains.",
+        "pkg_type": null
+      },
+      "component_risk_metadata": {
+        "risk_level": {
+          "severity": "Medium",
+          "score": 6.9,
+          "csaf_score": null
+        },
+        "attestation_level": {
+          "lsal": null,
+          "lcal": 3
+        }
+      },
+      "sbom_id": "SPDXRef-DOCUMENT-vdna_994mgmr65tculnfy-9524797-12996607",
+      "source_code": {
+        "code_quality_score": null,
+        "loc": "https://github.com/PushpenderIndia/Log4jScanner",
+        "security_posture_score": null,
+        "friendly_name": "Log4jScanner",
+        "repo_type": "github",
+        "languages": [
+          "python"
+        ],
+        "last_commit": null,
+        "src_code_type": null,
+        "version": null,
+        "transitive_dep_count": null,
+        "is_suspicious_activity": false,
+        "total_commits": null,
+        "score": 6,
+        "latest_version_date": null,
+        "latest_version": null,
+        "contributors_count": 0,
+        "name": "Log4jScanner",
+        "first_commit": null,
+        "direct_dep_count": null,
+        "id": "SPDX-SRC-CODE-0b4ca7f1-e6a3-5e83-a646-873c3268723a",
+        "src_code_created": null,
+        "is_opensource": true
+      }
+    },
+    {
+      "doc_created": "2025-05-11T16:58:25.000Z",
+      "package": {
+        "supplier_info": {
+          "home_page": null,
+          "org": "Pushpender Singh",
+          "name": "Pushpender Singh",
+          "is_verified": true
+        },
+        "file_path": "",
+        "files_analysed": false,
+        "gos": {
+          "gos_type": "gold"
+        },
+        "purl": "pkg:pypi/log4jscanner@1.2.0",
+        "total_fixed_vulnerability_count": 0,
+        "vuln_fixed_info": null,
+        "tamper_info": null,
+        "supplier": "Pushpender Singh",
+        "checksum": {
+          "sha1": "6034928cc35b9672442d2c280fc2ed52cb56196b",
+          "sha256": "5b145dcca06f99a97156c1e93ba7549e0a3df314a1ee52e832edcd3c28231856",
+          "sha512": null,
+          "md5": "28fdb6364e3816e2d2881985a5414dc3"
+        },
+        "total_vulnerability_count": 0,
+        "id": "SPDX-PACKAGE-9fcd3925-dea7-50c0-8271-c59139c5d4ee",
+        "pkg_manager": "python",
+        "last_modified": "2022-01-09T06:22:41.000Z",
+        "src_info": null,
+        "friendly_name": "log4jscanner:1.2.0",
+        "file_name": "pypi:log4jscanner:1.2.0",
+        "download_loc": null,
+        "vulnerability": [],
+        "version": "1.2.0",
+        "license": [
+          {
+            "tenant_id": null,
+            "doc_created": "2025-05-11T16:58:21.000Z",
+            "package": null,
+            "company_id": null,
+            "is_gridfs": false,
+            "doc_type": null,
+            "short_id": null,
+            "version": null,
+            "id_contributing_properties": null,
+            "url": "GNU General Public License v3 (GPLv3)",
+            "full_name": "GNU General Public License v3 (GPLv3)",
+            "component_join_field": null,
+            "sbom": null,
+            "id": null,
+            "sbom_id": null,
+            "is_opensource": true,
+            "category": null,
+            "source_code": null
+          }
+        ],
+        "cpes": null,
+        "name": "pypi:log4jscanner:1.2.0",
+        "desc": "Log4jScanner is a Log4j Related CVEs Scanner, Designed to Help Penetration Testers to Perform Black Box Testing on given subdomains.",
+        "pkg_type": null
+      },
+      "component_risk_metadata": {
+        "risk_level": {
+          "severity": "Medium",
+          "score": 6.9,
+          "csaf_score": null
+        },
+        "attestation_level": {
+          "lsal": null,
+          "lcal": 3
+        }
+      },
+      "sbom_id": "SPDXRef-DOCUMENT-vdna_994mgmr65tCUlnfy-9524813-9524819",
+      "source_code": {
+        "code_quality_score": null,
+        "loc": "https://github.com/PushpenderIndia/Log4jScanner",
+        "security_posture_score": null,
+        "friendly_name": "Log4jScanner",
+        "repo_type": "github",
+        "languages": [
+          "python"
+        ],
+        "last_commit": null,
+        "src_code_type": null,
+        "version": null,
+        "transitive_dep_count": null,
+        "is_suspicious_activity": false,
+        "total_commits": null,
+        "score": 6,
+        "latest_version_date": null,
+        "latest_version": null,
+        "contributors_count": 0,
+        "name": "Log4jScanner",
+        "first_commit": null,
+        "direct_dep_count": null,
+        "id": "SPDX-SRC-CODE-0b4ca7f1-e6a3-5e83-a646-873c3268723a",
+        "src_code_created": null,
+        "is_opensource": true
+      }
+    }
+  ],
+  "total": 2,
+  "gos_total": 2
+}

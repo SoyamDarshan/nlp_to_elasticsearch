@@ -1,0 +1,5 @@
+
+flask
+elasticsearch
+google-generativeai
+python-dotenv

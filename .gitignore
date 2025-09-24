@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+
+# Node/React
+node_modules/
+build/
+dist/
+.env.*
+
+# Java
+*.class
+*.jar
+*.war
+*.iml
+*.log
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+
+# Archives
+*.zip
+*.tar.gz
+
+# Misc
+*.swp
+*~
