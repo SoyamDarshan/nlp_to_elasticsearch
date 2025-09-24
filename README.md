@@ -58,4 +58,21 @@ docker-compose down -v
 ## Elasticsearch
 - Make sure Elasticsearch is running (Docker Compose will handle this). Populate it with `python-service/populate_elasticsearch.py` if you update the data files or want to reset the index.
 
----
+## Example Queries
+
+You can use natural language queries like:
+
+- `show me log4jscanner:1.0.0`
+- `show me CVE-2020-1472`
+
+These will return details for the Log4jScanner component (version 1.0.0) and the CVE-2020-1472 vulnerability, respectively, if present in the Elasticsearch index.
+
+## Endpoints
+- **Frontend**
+  - `/` — React UI
+- **Java API** (`/api`)
+  - `POST /api/nlp-query` — Accepts `{ "prompt": "..." }`, returns intent and results from Python service.
+  - `POST /api/repopulate-es` — Triggers Elasticsearch repopulation via Python service, returns status.
+- **Python Service**
+  - `POST /process` — Accepts `{ "prompt": "..." }`, returns `{ intent, results }` (LLM → ES query).
+  - `POST /repopulate-es` — Repopulates Elasticsearch index from data files, returns status.
